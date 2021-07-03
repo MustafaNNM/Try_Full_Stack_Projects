@@ -46,7 +46,7 @@ const App = () => {
   }
 
   return (
-    <Router>
+    <div>
       <div>
         <Link style={padding} to="/">home</Link>
         <Link style={padding} to="/anecdotes">anecdotes</Link>
@@ -75,7 +75,7 @@ const App = () => {
       <div>
         <i>Note app, Department of Computer Science 2020</i>
       </div>
-    </Router>
+  </div>
   )
 }
 export default App
